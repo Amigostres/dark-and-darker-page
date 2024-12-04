@@ -1,0 +1,25 @@
+/* navbar styles */
+.navbar{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 70px;
+}
+
+.navbar > li{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+/* catagories */
+.catagories{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.catagories > div{
+    padding: 100px;
+}
