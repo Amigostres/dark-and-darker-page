@@ -17,9 +17,14 @@
 .catagories{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
 .catagories > div{
-    padding: 100px;
+    padding: 80px;
+    max-width: 200px;
+    max-height: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
